@@ -5,6 +5,7 @@
   --primary-white-color: #ffffff;
   --background-color: #2196f3;
   --background-color-black: #2f303a;
+  --color-grey: #757575;
 }
 
 body {
@@ -61,8 +62,7 @@ ul {
   /* or 171% */
 
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--color-grey);
 }
 
 .button {
@@ -110,10 +110,8 @@ ul {
   font-size: 16px;
   line-height: 30px;
   /* identical to box height, or 187% */
-
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--color-grey);
 }
 
 .footer {
@@ -172,4 +170,22 @@ ul {
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+
+.characteristics-list-paragraph {
+  position: absolute;
+  width: 270px;
+  height: 75px;
+  left: 215px;
+  top: 800px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: var(--color-grey);
 }
