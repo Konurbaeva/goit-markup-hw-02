@@ -61,3 +61,11 @@ button.active {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+
+a[href='./index.html'] {
+  color: orange;
+}
+
+a[href='./portfolio.html'] {
+  color: orange;
+}
