@@ -13,29 +13,15 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-color);
 }
-.header {
-  background-color: grey;
-}
 
-.header-link .link.current {
-  color: var(--accent-color);
-}
-
-.header-link .link {
-  color: teal;
-}
-
-.header-link .link:hover,
-.header-link .link:focus {
-  color: tomato;
-}
-
+/*
 button {
   font-family: inherit;
 }
 
 cta-button {
   position: absolute;
+  font-family: inherit;
   width: 200px;
   height: 50px;
   left: 700px;
@@ -46,7 +32,7 @@ cta-button {
   border-radius: 4px;
 }
 
-button.active {
+ button.active {
   font-family: inherit;
   position: absolute;
   width: 73px;
@@ -60,8 +46,20 @@ button.active {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
+} */
 
-.header-link current {
+.current:hover {
   cursor: pointer;
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+
+  background: #2196f3;
+  /* shadow-middle */
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
