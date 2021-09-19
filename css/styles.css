@@ -200,6 +200,11 @@ ul {
   top: 2208px;
 }
 
+.footer-address-details link:hover,
+.footer-address-details link:focus {
+  color: red;
+}
+
 .footer-address {
   width: 231px;
   height: 21px;
