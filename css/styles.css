@@ -29,3 +29,7 @@ body {
 .header-link .link:focus {
   color: tomato;
 }
+
+button {
+  font-family: inherit;
+}
