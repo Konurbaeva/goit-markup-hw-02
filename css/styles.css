@@ -10,7 +10,6 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  letter-spacing: 0.02em;
 }
 .header {
   background-color: grey;
@@ -18,4 +17,13 @@ body {
 
 .header-link .link.current {
   color: var(--accent-color);
+}
+
+.header-link .link {
+  color: teal;
+}
+
+.header-link .link:hover,
+.header-link .link:focus {
+  color: tomato;
 }
