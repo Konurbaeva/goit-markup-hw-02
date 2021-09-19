@@ -56,7 +56,6 @@ ul {
   height: 75px;
   left: 215px;
   top: 800px;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -71,6 +70,17 @@ ul {
   height: 38px;
   left: 495px;
   top: 174px;
+  cursor: pointer;
+}
+
+.button.portfolio {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
   cursor: pointer;
 }
 
@@ -95,7 +105,6 @@ ul {
   top: 576px;
 
   font-family: inherit;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -112,7 +121,6 @@ ul {
   top: 616px;
 
   font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -128,7 +136,6 @@ ul {
   top: 1688px;
 
   font-family: inherit;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
@@ -161,7 +168,6 @@ ul {
   top: 774px;
 
   font-family: inherit;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
@@ -177,7 +183,6 @@ ul {
   top: 800px;
 
   font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -207,7 +212,6 @@ ul {
   top: 2208px;
 
   font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -225,7 +229,6 @@ ul {
   top: 2238px;
 
   font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -243,7 +246,6 @@ ul {
   top: 2268px;
 
   font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -252,4 +254,20 @@ ul {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.header-email-link.link:hover,
+.header-email-link.link:focus {
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--background-color);
 }
