@@ -118,7 +118,7 @@ ul {
   left: 239px;
   top: 616px;
 
-  font-family: Roboto;
+  font-family: inherit;
 
   font-size: 16px;
   line-height: 1.2;
@@ -178,7 +178,7 @@ ul {
   left: 215px;
   top: 800px;
 
-  font-family: Roboto;
+  font-family: inherit;
 
   font-size: 14px;
   line-height: 1.2;
@@ -206,7 +206,7 @@ ul {
   left: 215px;
   top: 2208px;
 
-  font-family: Roboto;
+  font-family: inherit;
 
   font-size: 14px;
   line-height: 1.2;
@@ -222,7 +222,7 @@ ul {
   left: 215px;
   top: 2238px;
 
-  font-family: Roboto;
+  font-family: inherit;
 
   font-size: 14px;
   line-height: 1.2;
@@ -238,7 +238,7 @@ ul {
   left: 215px;
   top: 2268px;
 
-  font-family: Roboto;
+  font-family: inherit;
 
   font-size: 14px;
   line-height: 1.2;
