@@ -62,3 +62,7 @@ cta-button {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
+
+footer {
+  font-style: normal;
+}
