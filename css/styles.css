@@ -44,6 +44,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
+  cursor: pointer;
 }
 
 ul {
@@ -70,6 +71,7 @@ ul {
   height: 38px;
   left: 495px;
   top: 174px;
+  cursor: pointer;
 }
 
 .button.active {
@@ -79,6 +81,11 @@ ul {
   height: 38px;
   left: 495px;
   top: 174px;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .cards-list-title {
@@ -164,7 +171,6 @@ ul {
 }
 
 .characteristics-list-paragraph {
-  position: absolute;
   width: 270px;
   height: 75px;
   left: 215px;
