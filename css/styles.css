@@ -155,3 +155,21 @@ ul {
 .header-list .link:focus {
   color: var(--title-text-color);
 }
+
+.characteristics-list-headline {
+  text-transform: uppercase;
+
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
