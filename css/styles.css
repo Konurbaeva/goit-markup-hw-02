@@ -103,3 +103,25 @@ ul {
 
   color: #757575;
 }
+
+.footer-address-details {
+  text-decoration: none;
+}
+
+.logo {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 1688px;
+
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
