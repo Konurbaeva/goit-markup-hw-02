@@ -131,10 +131,12 @@ ul {
 
 .header-link.link.current {
   color: var(--accent-color);
+  font-size: 14px;
 }
 
 .header-list .link {
   color: var(--accent-color);
+  font-size: 14px;
 }
 
 .header-list .link:hover,
